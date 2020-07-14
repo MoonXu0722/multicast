@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c_multi_v2_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/CLion_code/c_multi_v2_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/CLion_code/c_multi_v2_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_multi_v2_server">
+				<Option output="E:/CLion_code/c_multi_v2_server/cmake-build-debug/c_multi_v2_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLion_code/c_multi_v2_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/software/programming/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="H:/software/programming/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="H:/software/programming/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_multi_v2_server"/>
+					<CompileFile command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_multi_v2_server/fast">
+				<Option output="E:/CLion_code/c_multi_v2_server/cmake-build-debug/c_multi_v2_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLion_code/c_multi_v2_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/software/programming/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="H:/software/programming/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="H:/software/programming/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_multi_v2_server/fast"/>
+					<CompileFile command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/CLion_code/c_multi_v2_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/software/programming/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/CLion_code/c_multi_v2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/CLion_code/c_multi_v2_server/main.c">
+			<Option target="c_multi_v2_server"/>
+		</Unit>
+		<Unit filename="E:/CLion_code/c_multi_v2_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
